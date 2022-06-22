@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">OnlineVehicleParking</string>
+    <string name="welcome_to_parking_slot">Welcome to parking slot</string>
+    <string name="todo">TODO</string>
+    <string name="Welcome_To_Parking_Slot" />
+    <string name="user_registration">User Registration</string>
+    <string name="vehicle_s_reg_no">Vehicle\'s reg. No</string>
+    <string name="password">Password</string>
+    <string name="save">Save</string>
+    <string name="already_registered_need_to_login">Already registered! Need to LogIn?</string>
+    <string name="bike">Bike</string>
+    <string name="parkeasy">ParkEasy</string>
+    <string name="car">Car</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="address">Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="full_name">Full Name</string>
+    <string name="action_done"> Mr. Xxx Yyy Zzz </string>
+
+
+</resources>

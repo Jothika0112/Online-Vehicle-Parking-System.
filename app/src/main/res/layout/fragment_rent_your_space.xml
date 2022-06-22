@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <ScrollView android:layout_height="match_parent" android:padding="15dp"  android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:background="@drawable/backgroundcar" android:layout_height="match_parent" android:padding="5dp" android:layout_width="match_parent" android:orientation="vertical" android:layout_gravity="center">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textStyle="bold" android:textSize="25sp" android:textColor="@color/black" android:text="Rent/Share Your Space" android:gravity="center" android:layout_marginTop="5dp" android:fontFamily="serif" android:id="@+id/textView2z"/>
+
+        <TextView
+            android:id="@+id/textViewd2z"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Vehicle Parking"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+    <RelativeLayout android:layout_height="wrap_content" android:padding="10dp" android:layout_width="match_parent" android:gravity="center">
+
+    <EditText android:layout_height="wrap_content" android:padding="10dp" android:background="@drawable/rounded_edittext" android:layout_width="match_parent" android:textColor="@color/black" android:fontFamily="serif" android:id="@+id/editText_prkNmRent" android:textColorHint="#fff" android:inputType="textPersonName" android:hint=" Park Name" android:ems="10" android:drawableLeft="@drawable/ic_user_name" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"/>
+
+    <EditText android:layout_height="wrap_content" android:padding="10dp" android:background="@drawable/rounded_edittext" android:layout_width="match_parent" android:textColor="@color/black" android:layout_marginTop="55dp" android:fontFamily="serif" android:id="@+id/editText_phnnumRegRent" android:textColorHint="#fff" android:inputType="number" android:hint=" Phone Number" android:ems="10" android:drawableLeft="@drawable/ic_pass" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"/>
+
+    <EditText android:layout_height="wrap_content" android:padding="10dp" android:background="@drawable/rounded_edittext" android:layout_width="match_parent" android:textColor="@color/black" android:layout_marginTop="110dp" android:fontFamily="serif" android:id="@+id/editText_addRent" android:textColorHint="#fff" android:inputType="textPostalAddress" android:hint=" Address" android:ems="10" android:drawableLeft="@drawable/ic_pass" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"/>
+
+    <EditText android:layout_height="wrap_content" android:padding="10dp" android:background="@drawable/rounded_edittext" android:layout_width="match_parent" android:textColor="@color/black" android:layout_marginTop="169dp" android:fontFamily="serif" android:id="@+id/editText_VehicleRegNumRennt" android:textColorHint="#fff" android:inputType="number" android:hint=" Capacity" android:ems="10" android:drawableLeft="@drawable/ic_pass" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"/>
+
+    <EditText android:layout_height="wrap_content" android:padding="10dp" android:background="@drawable/rounded_edittext" android:layout_width="match_parent" android:textColor="@color/black" android:layout_marginTop="226dp" android:fontFamily="serif" android:id="@+id/editText_passwasdordsRegRent" android:textColorHint="#fff" android:inputType="textPassword" android:hint=" Password" android:ems="10" android:drawableLeft="@drawable/ic_pass" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"/>
+
+    <TextView android:layout_height="wrap_content" android:padding="5dp" android:background="@drawable/rounded_edittext" android:layout_width="match_parent" android:textStyle="bold" android:textSize="23sp" android:textColor="@color/black" android:text="Next" android:gravity="center_horizontal" android:layout_marginTop="325dp" android:fontFamily="serif" android:id="@+id/button_regNextRent" android:textAllCaps="false"/>
+
+</RelativeLayout>
+
+
+    <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="10dp">
+
+    <TextView android:layout_height="wrap_content" android:padding="3dp" android:layout_width="wrap_content" android:textSize="17sp" android:textColor="@color/black" android:text=" Stay With Us " android:fontFamily="serif" android:id="@+id/button_regdffdisterLogIn" android:layout_centerHorizontal="true" android:textAllCaps="false" android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+
+</LinearLayout>
+
+</ScrollView>

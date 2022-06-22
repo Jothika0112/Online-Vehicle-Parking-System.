@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <ScrollView android:layout_gravity="center" android:padding="10dp" android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:background="@drawable/backgroundcar" android:layout_gravity="center"  android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView  android:padding="10dp" android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center_horizontal" android:text="My Profile" android:textStyle="bold" android:textColor="#fff" android:textSize="30sp" android:fontFamily="serif"/>
+
+    <TextView android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Name" android:textStyle="bold" android:textColor="@color/black" android:textSize="30sp" android:fontFamily="serif" android:textAlignment="center" android:id="@+id/txtName"/>
+
+    <View android:background="#41CAB3" android:layout_height="5dp" android:layout_width="match_parent" android:id="@+id/divider" android:layout_marginRight="100dp" android:layout_marginLeft="100dp"/>
+
+    <TextView android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Full Name" android:textStyle="bold" android:textColor="@color/black" android:textSize="15sp" android:fontFamily="serif" android:textAlignment="center" android:id="@+id/txtUserName1"/>
+
+    <TextView android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Address" android:textStyle="bold" android:textColor="@color/black" android:textSize="22sp" android:fontFamily="serif" android:textAlignment="center" android:id="@+id/txtUserName"/>
+
+    <View android:background="#41CAB3" android:layout_height="5dp" android:layout_width="match_parent" android:id="@+id/divider3" android:layout_marginRight="100dp" android:layout_marginLeft="100dp"/>
+
+    <TextView android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Address" android:textStyle="bold" android:textColor="@color/black" android:textSize="15sp" android:fontFamily="serif" android:textAlignment="center" android:id="@+id/txtAddress1"/>
+
+    <TextView android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Vehicle Type" android:textStyle="bold" android:textColor="@color/black" android:textSize="22sp" android:fontFamily="serif" android:textAlignment="center" android:id="@+id/txtAddress"/>
+
+    <View android:background="#41CAB3" android:layout_height="5dp" android:layout_width="match_parent" android:id="@+id/divider3d" android:layout_marginRight="100dp" android:layout_marginLeft="100dp"/>
+
+    <TextView android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Vehicle Type" android:textStyle="bold" android:textColor="@color/black" android:textSize="15sp" android:fontFamily="serif" android:textAlignment="center" android:id="@+id/txtphoneNumq"/>
+
+    <TextView android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Vehicle Reg. No" android:textStyle="bold" android:textColor="@color/black" android:textSize="22sp" android:fontFamily="serif" android:textAlignment="center" android:id="@+id/txtphoneNum"/>
+
+    <View android:background="#41CAB3" android:layout_height="5dp" android:layout_width="match_parent" android:id="@+id/divider3f" android:layout_marginRight="100dp" android:layout_marginLeft="100dp"/>
+
+    <TextView android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Vehicle Reg. No" android:textStyle="bold" android:textColor="@color/black" android:textSize="15sp" android:textAlignment="center" android:id="@+id/txtMails"/>
+
+    <TextView android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Phone Number" android:textStyle="bold" android:textColor="@color/black" android:textSize="22sp" android:fontFamily="serif" android:textAlignment="center" android:id="@+id/txtMail"/>
+
+    <View android:background="#41CAB3" android:layout_height="5dp" android:layout_width="match_parent" android:id="@+id/divider3sdf" android:layout_marginRight="120dp" android:layout_marginLeft="120dp" android:layout_marginBottom="50dp"/>
+
+    <TextView android:layout_gravity="center"  android:padding="5dp" android:layout_height="wrap_content" android:layout_width="match_parent" android:text=" " android:textStyle="bold" android:textColor="@color/black" android:textSize="13dp" android:fontFamily="serif" android:textAlignment="center" android:id="@+id/txtMailsa"/>
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/action_done" app:showAsAction="ifRoom" android:textAllCaps="false" android:id="@+id/itemMenuTitle"/>
+
+    <item android:title="Report" app:showAsAction="never" android:id="@+id/item12" android:left="10dp" android:right="10dp" android:bottom="10dp" android:top="10dp"/>
+
+    <item android:title="My Profile" app:showAsAction="never" android:id="@+id/item1" android:left="10dp" android:right="10dp" android:bottom="10dp" android:top="10dp"/>
+
+
+
+    <item android:title="Rent Your Space" app:showAsAction="never" android:id="@+id/item3" android:left="10dp" android:right="10dp" android:bottom="10dp" android:top="10dp" />
+
+    <item android:title="Logout" app:showAsAction="never" android:id="@+id/item4" android:left="10dp" android:right="10dp" android:bottom="10dp" android:top="10dp" />
+
+</menu>

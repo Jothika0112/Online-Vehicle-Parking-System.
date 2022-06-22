@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <ScrollView  android:padding="15dp" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:background="@drawable/backgroundcar" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:layout_gravity="center">
+
+    <TextView android:background="@drawable/rounded_edittext" android:padding="5dp" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="center" tools:ignore="MissingConstraints" android:textStyle="bold" android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" android:textColor="@color/black" android:textAlignment="center" android:layout_weight="50" android:text="Parked_or_not" android:fontFamily="sans-serif-smallcaps" android:id="@+id/textView2z"/>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="center" android:gravity="center">
+
+    <TextView android:padding="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content" tools:ignore="MissingConstraints" android:textStyle="bold" android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:textColor="@color/black" android:text="At: " android:fontFamily="serif" android:id="@+id/textVissew" android:gravity="center"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" tools:ignore="MissingConstraints" android:textStyle="bold" android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:textColor="@color/black" android:text="park_name" android:fontFamily="serif" android:id="@+id/textViewprkNm" android:gravity="center"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="center" android:gravity="center">
+
+    <TextView android:padding="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content" tools:ignore="MissingConstraints" android:textStyle="bold" android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:textColor="@color/black" android:text=" Time " android:fontFamily="serif" android:id="@+id/textVkjhissew" android:gravity="center"/>
+
+    <TextView android:padding="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content" tools:ignore="MissingConstraints" android:textStyle="bold" android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:textColor="@color/black" android:text="Date" android:fontFamily="serif" android:id="@+id/tekjhxtVdateiew" android:gravity="center"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:background="@drawable/rounded_edittext" android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="center" android:gravity="center" android:layout_marginTop="15dp">
+
+    <TextView android:padding="10dp" android:layout_height="wrap_content" android:layout_width="wrap_content" tools:ignore="MissingConstraints" android:textStyle="bold" android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:textColor="@color/black" android:text="Type" android:fontFamily="serif" android:id="@+id/tkjhextVkjhissew" android:gravity="center"/>
+
+    <TextView android:padding="10dp" android:layout_height="wrap_content" android:layout_width="wrap_content" tools:ignore="MissingConstraints" android:textStyle="bold" android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:textColor="@color/black" android:text="Reg No" android:fontFamily="serif" android:id="@+id/telkkjhxtViewreg" android:gravity="center"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

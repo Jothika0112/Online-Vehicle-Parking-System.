@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <ScrollView tools:context=".activities.ParkListItemActivity" android:padding="15dp"  android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout  android:padding="25dp" android:background="@drawable/backgroundcar" android:layout_height="match_parent" android:layout_width="match_parent" android:layout_gravity="center" android:orientation="vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="TextView" android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" android:fontFamily="serif" android:textStyle="bold" android:gravity="center_horizontal" android:textAlignment="center" android:textColor="@color/white" android:id="@+id/textViewParkName"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="TextView" android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" android:fontFamily="serif" android:textStyle="bold" android:gravity="center_horizontal" android:textAlignment="center" android:textColor="@color/white" android:id="@+id/textView3Address"/>
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="horizontal" android:gravity="center">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Contact Number: " android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:fontFamily="serif" android:textStyle="bold" android:gravity="center_horizontal" android:textAlignment="center" android:textColor="@color/white" android:id="@+id/textViewPhoneNuma"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView" android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:fontFamily="serif" android:textStyle="bold" android:gravity="center_horizontal" android:textAlignment="center" android:textColor="@color/white" android:id="@+id/textViewPhoneNum"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="horizontal" android:gravity="center">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Capacity: " android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:fontFamily="serif" android:textStyle="bold" android:gravity="center_horizontal" android:textAlignment="center" android:textColor="@color/white" android:id="@+id/textViewCapacitya"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView" android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:fontFamily="serif" android:textStyle="bold" android:gravity="center_horizontal" android:textAlignment="center" android:textColor="@color/white" android:id="@+id/textViewCapacity"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="horizontal" android:gravity="center">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Available: " android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" android:fontFamily="serif" android:textStyle="bold" android:gravity="center_horizontal" android:textAlignment="center" android:textColor="@color/white" android:id="@+id/textViewAvailavaial"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="xx" android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" android:fontFamily="serif" android:textStyle="bold" android:gravity="center_horizontal" android:textAlignment="center" android:textColor="@color/white" android:id="@+id/textViewAvailpljavail"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:orientation="vertical" android:layout_marginTop="25dp">
+
+    <TextView android:padding="7dp" android:background="@drawable/rounded_edittext" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:text="Book Now" android:textStyle="bold" android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" android:fontFamily="serif" android:gravity="center" android:textAlignment="center" android:textColor="#3BC7FF" android:id="@+id/bookNow" android:layout_marginTop="10dp"/>
+
+    <TextView android:padding="7dp" android:background="@drawable/rounded_edittext" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:text="Back to List" android:textStyle="bold" android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" android:fontFamily="serif" android:gravity="center" android:textAlignment="center" android:textColor="#3BC7FF" android:id="@+id/backToList" android:layout_marginTop="15dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

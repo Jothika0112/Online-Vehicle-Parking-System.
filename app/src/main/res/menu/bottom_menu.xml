@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Find Park" android:icon="@drawable/ic_directions_car_park_status" android:id="@+id/item_findPark"/>
+
+    <item android:title="Park Status" android:icon="@drawable/ic_directions_car_black_parking" android:id="@+id/item_parkStatus"/>
+
+    <item android:title="Park List" android:icon="@drawable/ic_list_black_list" android:id="@+id/item_parkingList"/>
+
+</menu>
